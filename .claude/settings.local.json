@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(command:git)",
+      "Bash(command:unity)",
+      "Bash(command:code)",
+      "Bash(command:dotnet)",
+      "Bash(command:npm)",
+      "Bash(command:node)",
+      "Bash(command:firebase)",
+      "Bash(command:dir)",
+      "Bash(command:ls)",
+      "Bash(command:mkdir)",
+      "Bash(command:xcopy)",
+      "Bash(command:robocopy)",
+      "Bash(command:echo)",
+      "Bash(command:type)",
+      "Bash(command:cat)",
+      "Bash(command:grep)",
+      "Bash(command:find)",
+      "Bash(command:where)",
+      "Bash(command:python)",
+      "Bash(command:java)",
+      "Bash(command:curl)",
+      "WebFetch",
+      "WebSearch",
+      "Read(file:C:\\Projects\\cristo\\**)",
+      "Write(file:C:\\Projects\\cristo\\**)",
+      "Edit(file:C:\\Projects\\cristo\\**)",
+      "Glob(pattern:**)",
+      "Bash(git lfs install:*)",
+      "Bash(git lfs track:*)"
+    ]
+  }
+}
