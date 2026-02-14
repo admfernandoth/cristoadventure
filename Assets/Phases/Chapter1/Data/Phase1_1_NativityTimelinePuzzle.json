@@ -1,0 +1,128 @@
+{
+  "puzzleId": "Phase1_1_NativityTimeline",
+  "puzzleName": "Linha do Tempo da Natividade",
+  "puzzleDescription": "Organize os eventos da Natividade na ordem cronológica correta.",
+  "puzzleType": "Timeline",
+  "difficulty": 1,
+  "estimatedTimeMinutes": 5,
+  "completionReward": {
+    "relicId": "relic_nativity_star",
+    "relicName": "Estrela de Belém",
+    "relicDescription": "Uma estrela que lembra a jornada dos Reis Magos.",
+    "relicIcon": "Icons/Relic_NativityStar",
+    "xpReward": 100,
+    "coinsReward": 50
+  },
+  "events": [
+    {
+      "id": "event_1",
+      "correctPosition": 0,
+      "displayName_PT": "Maria visita Isabel",
+      "displayName_EN": "Mary visits Elizabeth",
+      "displayName_ES": "María visita a Isabel",
+      "description_PT": "Maria, grávida de Jesus, visita sua prima Isabel.",
+      "description_EN": "Mary, pregnant with Jesus, visits her cousin Elizabeth.",
+      "description_ES": "María, embarazada de Jesús, visita a su prima Isabel.",
+      "bibleReference": "Lucas 1:39-56"
+    },
+    {
+      "id": "event_2",
+      "correctPosition": 1,
+      "displayName_PT": "César Augusto decreta o censo",
+      "displayName_EN": "Caesar Augustus decrees the census",
+      "displayName_ES": "César Augusto decreta el censo",
+      "description_PT": "O Imperador César Augusto ordena que todos sejam registrados.",
+      "description_EN": "Emperor Caesar Augustus orders everyone to be registered.",
+      "description_ES": "El Emperador César Augusto ordena que todos sean registrados.",
+      "bibleReference": "Lucas 2:1-3"
+    },
+    {
+      "id": "event_3",
+      "correctPosition": 2,
+      "displayName_PT": "Maria e José viajam para Belém",
+      "displayName_EN": "Mary and Joseph travel to Bethlehem",
+      "displayName_ES": "María y José viajan a Belén",
+      "description_PT": "Jose e Maria viajam a Belém por causa do censo.",
+      "description_EN": "Joseph and Mary travel to Bethlehem for the census.",
+      "description_ES": "José y María viajan a Belén por el censo.",
+      "bibleReference": "Lucas 2:4-5"
+    },
+    {
+      "id": "event_4",
+      "correctPosition": 3,
+      "displayName_PT": "Jesus nasce em Belém",
+      "displayName_EN": "Jesus is born in Bethlehem",
+      "displayName_ES": "Jesús nace en Belén",
+      "description_PT": "Maria da a luz seu filho primogenito e o envolve em panos.",
+      "description_EN": "Mary gives birth to her firstborn son and wraps him in swaddling clothes.",
+      "description_ES": "María da a luz a su hijo primogénito y lo envuelve en pañales.",
+      "bibleReference": "Lucas 2:6-7"
+    },
+    {
+      "id": "event_5",
+      "correctPosition": 4,
+      "displayName_PT": "Anjos aparecem aos pastores",
+      "displayName_EN": "Angels appear to shepherds",
+      "displayName_ES": "Ángeles aparecen a los pastores",
+      "description_PT": "Um anjo do Senhor aparece aos pastores e anuncia o nascimento.",
+      "description_EN": "An angel of the Lord appears to shepherds and announces the birth.",
+      "description_ES": "Un ángel del Señor aparece a los pastores y anuncia el nacimiento.",
+      "bibleReference": "Lucas 2:8-14"
+    },
+    {
+      "id": "event_6",
+      "correctPosition": 5,
+      "displayName_PT": "Pastores visitam Jesus",
+      "displayName_EN": "Shepherds visit Jesus",
+      "displayName_ES": "Pastores visitan a Jesús",
+      "description_PT": "Os pastores correm para Belém e encontram Maria, Jose e o bebê.",
+      "description_EN": "The shepherds hurry to Bethlehem and find Mary, Joseph and the baby.",
+      "description_ES": "Los pastores corren a Belén y encuentran a María, José y al bebé.",
+      "bibleReference": "Lucas 2:15-20"
+    },
+    {
+      "id": "event_7",
+      "correctPosition": 6,
+      "displayName_PT": "Simeão abençoa Jesus no templo",
+      "displayName_EN": "Simeon blesses Jesus in the temple",
+      "displayName_ES": "Simeón bendice a Jesús en el templo",
+      "description_PT": "No templo, Simeão toma Jesus em seus braços e abençoa a Deus.",
+      "description_EN": "At the temple, Simeon takes Jesus in his arms and blesses God.",
+      "description_ES": "En el templo, Simeón toma a Jesús en sus brazos y bendice a Dios.",
+      "bibleReference": "Lucas 2:25-35"
+    },
+    {
+      "id": "event_8",
+      "correctPosition": 7,
+      "displayName_PT": "Reis magos seguem a estrela",
+      "displayName_EN": "Magi follow the star",
+      "displayName_ES": "Reyes magos siguen la estrella",
+      "description_PT": "Os reis magos seguem a estrela até encontrar Jesus.",
+      "description_EN": "The magi follow the star until they find Jesus.",
+      "description_ES": "Los reyes magos siguen la estrella hasta encontrar a Jesús.",
+      "bibleReference": "Mateus 2:1-12"
+    }
+  ],
+  "hints": [
+    {
+      "cost": 1,
+      "text_PT": "Começa com a visita de Maria a Isabel.",
+      "text_EN": "Starts with Mary's visit to Elizabeth.",
+      "text_ES": "Comienza con la visita de María a Isabel."
+    },
+    {
+      "cost": 2,
+      "text_PT": "O censo veio antes da viagem a Belém.",
+      "text_EN": "The census came before the journey to Bethlehem.",
+      "text_ES": "El censo vino antes del viaje a Belén."
+    }
+  ],
+  "successMessage_PT": "Parabéns! Você ordenou corretamente os eventos da Natividade!",
+  "successMessage_EN": "Congratulations! You correctly ordered the Nativity events!",
+  "successMessage_ES": "¡Felicitaciones! Ordenaste correctamente los eventos de la Natividad.",
+  "completionStars": {
+    "threeStars": 60,
+    "twoStars": 120,
+    "oneStar": 180
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "dialogueId": "npc_father_elias_bethlehem",
+  "npcName": "Padre Elias",
+  "npcId": "npc_001_father_elias",
+  "location": "Bethlehem - Basilica of the Nativity",
+  "portraitSpritePath": "Portraits/NPC_FatherElias",
+  "dialogueTree": {
+    "startNodeId": "greeting",
+    "nodes": [
+      {
+        "id": "greeting",
+        "type": "dialogue",
+        "speaker": "Padre Elias",
+        "lines_PT": [
+          "Paz seja convosco, peregrino!",
+          "Bem-vindo à Basílica da Natividade.",
+          "Este é um lugar muito especial."
+        ],
+        "lines_EN": [
+          "Peace be with you, pilgrim!",
+          "Welcome to the Basilica of the Nativity.",
+          "This is a very special place."
+        ],
+        "lines_ES": [
+          "¡La paz sea contigo, peregrino!",
+          "Bienvenido a la Basílica de la Natividad.",
+          "Este es un lugar muy especial."
+        ],
+        "choices": [
+          {
+            "text_PT": "Conte-me sobre a história desta basílica.",
+            "text_EN": "Tell me about the history of this basilica.",
+            "text_ES": "Cuéntame sobre la historia de esta basílica.",
+            "nextNode": "history"
+          },
+          {
+            "text_PT": "O que significa a Estrela de Prata?",
+            "text_EN": "What does the Silver Star mean?",
+            "text_ES": "¿Qué significa la Estrella de Plata?",
+            "nextNode": "star"
+          },
+          {
+            "text_PT": "Onde Jesus nasceu exatamente?",
+            "text_EN": "Where exactly was Jesus born?",
+            "text_ES": "¿Dónde nació Jesús exactamente?",
+            "nextNode": "birthplace"
+          },
+          {
+            "text_PT": "Adeus.",
+            "text_EN": "Goodbye.",
+            "text_ES": "Adiós.",
+            "nextNode": "goodbye"
+          }
+        ]
+      },
+      {
+        "id": "history",
+        "type": "dialogue",
+        "speaker": "Padre Elias",
+        "lines_PT": [
+          "Esta basílica foi construída em 333 d.C.",
+          "O Imperador Constantino e sua mãe Helena a construíram.",
+          "Tem sido um local de peregrinação por quase 1700 anos!"
+        ],
+        "lines_EN": [
+          "This basilica was built in 333 AD.",
+          "Emperor Constantine and his mother Helena built it.",
+          "It has been a pilgrimage site for nearly 1700 years!"
+        ],
+        "lines_ES": [
+          "Esta basílica fue construida en 333 d.C.",
+          "El Emperador Constantino y su madre Helena la construyeron.",
+          "¡Ha sido un lugar de peregrinación durante casi 1700 años!"
+        ],
+        "choices": [
+          {
+            "text_PT": "Fascinante! Tem mais alguma coisa?",
+            "text_EN": "Fascinating! Anything else?",
+            "text_ES": "¡Fascinante! ¿Algo más?",
+            "nextNode": "greeting"
+          },
+          {
+            "text_PT": "Obrigado, adeus.",
+            "text_EN": "Thank you, goodbye.",
+            "text_ES": "Gracias, adiós.",
+            "nextNode": "goodbye"
+          }
+        ]
+      },
+      {
+        "id": "star",
+        "type": "dialogue",
+        "speaker": "Padre Elias",
+        "lines_PT": [
+          "A estrela marca o local preciso do nascimento de Jesus.",
+          "Segundo a tradição, a gruta onde ele nasceu está aqui.",
+          "A inscrição diz: 'Aqui nasceu Jesus Cristo da Virgem Maria'."
+        ],
+        "lines_EN": [
+          "The star marks the precise location of Jesus' birth.",
+          "According to tradition, the cave where he was born is here.",
+          "The inscription reads: 'Here Jesus Christ was born of the Virgin Mary'."
+        ],
+        "lines_ES": [
+          "La estrella marca el lugar preciso del nacimiento de Jesús.",
+          "Según la tradición, la cueva donde nació está aquí.",
+          "La inscripción dice: 'Aquí nació Jesucristo de la Virgen María'."
+        ],
+        "choices": [
+          {
+            "text_PT": "Incrível! Posso fazer mais perguntas?",
+            "text_EN": "Incredible! Can I ask more?",
+            "text_ES": "¡Increíble! ¿Puedo preguntar más?",
+            "nextNode": "greeting"
+          },
+          {
+            "text_PT": "Obrigado, adeus.",
+            "text_EN": "Thank you, goodbye.",
+            "text_ES": "Gracias, adiós.",
+            "nextNode": "goodbye"
+          }
+        ]
+      },
+      {
+        "id": "birthplace",
+        "type": "dialogue",
+        "speaker": "Padre Elias",
+        "lines_PT": [
+          "Jesus nasceu em uma gruta que servia de estábulo.",
+          "Estas grutas eram comuns em Belém naquela época.",
+          "Eram usadas para abrigar animais."
+        ],
+        "lines_EN": [
+          "Jesus was born in a cave that served as a stable.",
+          "These caves were common in Bethlehem at that time.",
+          "They were used to shelter animals."
+        ],
+        "lines_ES": [
+          "Jesús nació en una cueva que servía de establo.",
+          "Estas cuevas eran comunes en Belén en ese tiempo.",
+          "Se usaban para albergar animales."
+        ],
+        "choices": [
+          {
+            "text_PT": "Interessante. Tem mais para contar?",
+            "text_EN": "Interesting. Anything else to tell?",
+            "text_ES": "Interesante. ¿Algo más que contar?",
+            "nextNode": "greeting"
+          },
+          {
+            "text_PT": "Obrigado, adeus.",
+            "text_EN": "Thank you, goodbye.",
+            "text_ES": "Gracias, adiós.",
+            "nextNode": "goodbye"
+          }
+        ]
+      },
+      {
+        "id": "goodbye",
+        "type": "dialogue",
+        "speaker": "Padre Elias",
+        "lines_PT": [
+          "Que a paz do Senhor esteja com você, peregrino.",
+          "Volte sempre!"
+        ],
+        "lines_EN": [
+          "May the Lord's peace be with you, pilgrim.",
+          "Come back anytime!"
+        ],
+        "lines_ES": [
+          "Que la paz del Señor esté contigo, peregrino.",
+          "¡Vuelve cuando quieras!"
+        ],
+        "choices": [],
+        "endsDialogue": true
+      }
+    ]
+  },
+  "questGiver": false,
+  "shopKeeper": false,
+  "giftReward": {
+    "itemId": "relic_blessing",
+    "itemName": "Bênção do Padre Elias",
+    "itemDescription": "Uma bênção especial recebida no local sagrado.",
+    "itemIcon": "Icons/Relic_Blessing"
+  }
+}

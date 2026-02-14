@@ -1,0 +1,213 @@
+{
+  "phaseId": "Phase_1_1_Bethlehem",
+  "phaseName": "Fase 1.1: Belém - Basílica da Natividade",
+  "pois": [
+    {
+      "id": "POI_001",
+      "name": "History Plaque",
+      "type": "InfoPlaque",
+      "position": {
+        "x": 5.0,
+        "y": 0.0,
+        "z": 10.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "data": {
+        "titleKey": "POI001_Title",
+        "contentKey": "POI001_Content",
+        "iconEmoji": "📜"
+      }
+    },
+    {
+      "id": "POI_002",
+      "name": "Silver Star",
+      "type": "ReliquaryPOI",
+      "position": {
+        "x": 0.0,
+        "y": 0.5,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "data": {
+        "titleKey": "POI002_Title",
+        "contentKey": "POI002_Content",
+        "relicId": "relic_silver_star",
+        "iconEmoji": "⭐"
+      }
+    },
+    {
+      "id": "POI_003",
+      "name": "The Manger",
+      "type": "ReliquaryPOI",
+      "position": {
+        "x": -3.0,
+        "y": 0.3,
+        "z": 2.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 45,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "data": {
+        "titleKey": "POI003_Title",
+        "contentKey": "POI003_Content",
+        "relicId": "relic_manger",
+        "iconEmoji": "🏠"
+      }
+    },
+    {
+      "id": "POI_004",
+      "name": "Father Elias",
+      "type": "NPCGuidePOI",
+      "position": {
+        "x": 8.0,
+        "y": 0.0,
+        "z": 5.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 180,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "data": {
+        "npcNameKey": "NPC001_Name",
+        "dialogueId": "npc_father_elias_bethlehem",
+        "iconEmoji": "👨‍🦳"
+      }
+    },
+    {
+      "id": "POI_005",
+      "name": "Photo Spot",
+      "type": "PhotoSpotPOI",
+      "position": {
+        "x": -5.0,
+        "y": 0.0,
+        "z": -8.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "data": {
+        "promptKey": "POI005_Prompt",
+        "iconEmoji": "📸"
+      }
+    },
+    {
+      "id": "POI_006",
+      "name": "Luke 2:7",
+      "type": "VerseMarkerPOI",
+      "position": {
+        "x": 2.0,
+        "y": 0.0,
+        "z": -5.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "data": {
+        "referenceKey": "POI006_Reference",
+        "verseKey": "POI006_Verse",
+        "iconEmoji": "📖"
+      }
+    },
+    {
+      "id": "POI_007",
+      "name": "Timeline Puzzle Trigger",
+      "type": "PuzzleTriggerPOI",
+      "position": {
+        "x": 10.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "data": {
+        "puzzleId": "Phase1_1_NativityTimeline",
+        "titleKey": "Puzzle_Title",
+        "iconEmoji": "🧩"
+      }
+    },
+    {
+      "id": "POI_008",
+      "name": "Phase Exit",
+      "type": "PhaseExit",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 15.0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "data": {
+        "nextPhaseId": "Phase_1_2",
+        "requiredVisits": 5,
+        "iconEmoji": "🚪"
+      }
+    }
+  ],
+  "phaseCompletion": {
+    "requiredVisits": 5,
+    "requiredPuzzles": 1,
+    "rewardRelicId": "relic_phase_completion",
+    "rewardXP": 500
+  }
+}
