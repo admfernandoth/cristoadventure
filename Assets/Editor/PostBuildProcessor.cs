@@ -133,7 +133,7 @@ namespace CristoAdventure.BuildSystem
 
         private static void GenerateInstallInstructions(string buildPath)
         {
-            string instructions = CristoAdventure Install Instructions\n\n" +
+            string instructions = "CristoAdventure Install Instructions\n\n" +
                 "1. Transfer APK to Android device:\n" +
                 "   - Via USB\n" +
                 "   - Email\n" +

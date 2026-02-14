@@ -114,13 +114,13 @@ namespace CristoAdventure.BuildSystem
             string message = isDevelopment ?
                 "Building Development APK\n\n" +
                 "- Development build enabled\n" +
-                - Debug symbols included\n" +
-                - Script debugging allowed\n\n" +
+                "- Debug symbols included\n" +
+                "- Script debugging allowed\n\n" +
                 "Continue with build?" :
                 "Building Release APK\n\n" +
                 "- Development features disabled\n" +
-                - Optimized for performance\n" +
-                - Minimal build size\n\n" +
+                "- Optimized for performance\n" +
+                "- Minimal build size\n\n" +
                 "Continue with build?";
 
             return EditorUtility.DisplayDialog("Build Confirmation", message, "Build", "Cancel");
