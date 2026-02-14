@@ -29,7 +29,8 @@
       "Edit(file:C:\\Projects\\cristo\\**)",
       "Glob(pattern:**)",
       "Bash(git lfs install:*)",
-      "Bash(git lfs track:*)"
+      "Bash(git lfs track:*)",
+      "Bash(git push:*)"
     ]
   }
 }

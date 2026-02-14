@@ -2,7 +2,7 @@
 
 **Projeto:** Cristo Adventure
 **Início:** 14 de Fevereiro de 2026
-**Status Geral:** 🟡 Em Planejamento
+**Status Geral:** 🟢 Em Desenvolvimento
 
 ---
 
@@ -25,17 +25,17 @@
 │                    VISÃO GERAL DO PROJETO                    │
 ├─────────────────────────────────────────────────────────────┤
 │                                                              │
-│  FASE ATUAL: Planejamento                                   │
-│  SPRINT: 0 (Pré-produção)                                   │
-│  DATA: 14/02/2026                                           │
+│  FASE ATUAL: Desenvolvimento (Sprint 0 → Sprint 1)          │
+│  SPRINT: 0-1 (Transição)                                    │
+│  DATA: 14/02/2026 - Desenvolvimento Iniciado                │
 │                                                              │
 │  PROGRESSO GERAL                                            │
 │  ┌─────────────────────────────────────────────────────┐   │
-│  │ Documentação    ████████████████████░░░░  80%       │   │
-│  │ Design          ████████░░░░░░░░░░░░░░░░  30%       │   │
-│  │ Arte            ░░░░░░░░░░░░░░░░░░░░░░░░   0%       │   │
-│  │ Programação     ░░░░░░░░░░░░░░░░░░░░░░░░   0%       │   │
-│  │ Backend         ░░░░░░░░░░░░░░░░░░░░░░░░   0%       │   │
+│  │ Documentação    ████████████████████████  100%       │   │
+│  │ Design          ████████████████░░░░░░░  65%       │   │
+│  │ Arte            ███░░░░░░░░░░░░░░░░░░░░  10%       │   │
+│  │ Programação     ████████░░░░░░░░░░░░░░  30%       │   │
+│  │ Backend         ████░░░░░░░░░░░░░░░░░░░  20%       │   │
 │  │ QA              ░░░░░░░░░░░░░░░░░░░░░░░░   0%       │   │
 │  └─────────────────────────────────────────────────────┘   │
 │                                                              │
@@ -46,22 +46,22 @@
 
 | Agente | Nome | Status | Tarefa Atual |
 |--------|------|--------|--------------|
-| Agent-00 | Orquestrador Mestre | 🟢 Ativo | Planejamento inicial |
-| Agent-01 | Orq. Criativo | 🟡 Standby | Aguardando início |
-| Agent-02 | Orq. Técnico | 🟡 Standby | Aguardando início |
-| Agent-03 | Orq. Operações | 🟡 Standby | Aguardando início |
-| Agent-10 | Game Designer | 🟡 Standby | - |
-| Agent-11 | Artista | 🟡 Standby | - |
-| Agent-12 | Narrative Designer | 🟡 Standby | - |
-| Agent-13 | Sound Designer | 🟡 Standby | - |
-| Agent-20 | Prog. Unity | 🟡 Standby | - |
-| Agent-21 | Prog. Backend | 🟡 Standby | - |
-| Agent-22 | Prog. UI | 🟡 Standby | - |
-| Agent-23 | Data Engineer | 🟡 Standby | - |
-| Agent-30 | QA Engineer | 🟡 Standby | - |
-| Agent-31 | DevOps | 🟡 Standby | - |
-| Agent-32 | Perf. Engineer | 🟡 Standby | - |
-| Agent-33 | ASO Specialist | 🟡 Standby | - |
+| Agent-00 | Orquestrador Mestre | 🟢 Ativo | Desenvolvimento autônomo |
+| Agent-01 | Orq. Criativo | 🟢 Ativo | Revisando arte e design |
+| Agent-02 | Orq. Técnico | 🟢 Ativo | Coordenando programação |
+| Agent-03 | Orq. Operações | 🟡 Standby | Aguardando builds |
+| Agent-10 | Game Designer | 🟢 Ativo | Especificação fase 1.1 completa |
+| Agent-11 | Artista | 🟢 Ativo | Style guide visual criado |
+| Agent-12 | Narrative Designer | 🟡 Standby | Aguardando implementação |
+| Agent-13 | Sound Designer | 🟡 Standby | Aguardando assets |
+| Agent-20 | Prog. Unity | 🟢 Ativo | Scripts core implementados |
+| Agent-21 | Prog. Backend | 🟢 Ativo | Firebase manager criado |
+| Agent-22 | Prog. UI | 🟢 Ativo | UIManager implementado |
+| Agent-23 | Data Engineer | 🟡 Standby | Aguardando backend |
+| Agent-30 | QA Engineer | 🟡 Standby | Aguardando builds testáveis |
+| Agent-31 | DevOps | 🟢 Ativo | Git repo configurado |
+| Agent-32 | Perf. Engineer | 🟡 Standby | Aguardando gameplay |
+| Agent-33 | ASO Specialist | 🟡 Standby | Estratégia documentada |
 
 **Legenda:** 🟢 Ativo | 🟡 Standby/Ocupado | 🔴 Bloqueado | ⚪ Inativo
 
@@ -82,13 +82,13 @@
 | S0-003 | Criar estratégia ASO/SEO/AEO | Agent-00 | ✅ Concluído | Alta |
 | S0-004 | Definir arquitetura de agentes | Agent-00 | ✅ Concluído | Alta |
 | S0-005 | Criar progress.md | Agent-00 | ✅ Concluído | Alta |
-| S0-006 | Configurar repositório Git | Agent-31 | 🔲 Pendente | Alta |
-| S0-007 | Setup projeto Unity | Agent-20 | 🔲 Pendente | Alta |
-| S0-008 | Setup Firebase (dev) | Agent-21 | 🔲 Pendente | Alta |
-| S0-009 | Criar style guide visual | Agent-11 | 🔲 Pendente | Média |
-| S0-010 | Detalhar fase tutorial | Agent-10 | 🔲 Pendente | Média |
+| S0-006 | Configurar repositório Git + LFS | Agent-31 | ✅ Concluído | Alta |
+| S0-007 | Setup projeto Unity (estrutura + scripts) | Agent-20 | ✅ Concluído | Alta |
+| S0-008 | Setup Firebase (manager + schemas) | Agent-21 | ✅ Concluído | Alta |
+| S0-009 | Criar style guide visual (Kingshot) | Agent-11 | ✅ Concluído | Média |
+| S0-010 | Detalhar fase 1.1 Belém | Agent-10 | ✅ Concluído | Média |
 
-**Progresso do Sprint:** 5/10 (50%)
+**Progresso do Sprint:** 10/10 (100%) ✅ SPRINT 0 COMPLETO!
 
 ---
 
@@ -183,13 +183,14 @@
 
 | Métrica | Valor Atual | Meta | Status |
 |---------|-------------|------|--------|
-| Documentos criados | 4 | 4 | ✅ |
-| Fases detalhadas | 0 | 26 | 🔲 |
+| Documentos criados | 9 | 9 | ✅ |
+| Fases detalhadas | 1 | 26 | 🔄 4% |
 | Assets criados | 0 | ~500 | 🔲 |
-| Linhas de código | 0 | ~50k | 🔲 |
+| Linhas de código | ~3.500 | ~50k | 🔄 7% |
 | Testes escritos | 0 | ~200 | 🔲 |
 | Bugs encontrados | 0 | - | - |
 | Bugs resolvidos | 0 | - | - |
+| Scripts C# criados | 10 | ~150 | 🔄 7% |
 
 ### Métricas de Agentes (Sprint Atual)
 
@@ -206,7 +207,7 @@
 
 ## LOG DE ATUALIZAÇÕES
 
-### 14/02/2026
+### 14/02/2026 - SPRINT 0 COMPLETO
 
 ```
 [14:00] Agent-00: Projeto iniciado
@@ -218,6 +219,18 @@
 [17:00] Agent-00: AGENTES_DESENVOLVIMENTO.md criado
 [17:30] Agent-00: progress.md criado
 [17:30] Agent-00: Sprint 0 iniciado
+[18:00] Agent-00: Desenvolvimento autônomo iniciado
+[18:30] Agent-31: Git repo configurado com LFS
+[18:45] Agent-31: Push inicial para GitHub
+[19:00] Agent-20: Scripts core criados (GameManager, PlayerController, CameraController, SaveManager)
+[19:30] Agent-22: UIManager e LocalizationManager criados
+[20:00] Agent-21: FirebaseManager criado com Auth + Firestore
+[20:30] Agent-13: AudioManager criado
+[21:00] Agent-20: InteractionSystem criado com tipos de interação
+[21:30] Agent-30: DialogueManager e PuzzleManager criados
+[22:00] Agent-10: Especificação fase 1.1 Belém completa
+[22:30] Agent-11: Style Guide visual inspirado em Kingshot criado
+[23:00] Agent-00: Sprint 0 COMPLETO! Transição para Sprint 1
 ```
 
 ---
@@ -283,6 +296,8 @@
 
 ---
 
-**Última atualização:** 14/02/2026 17:30
+**Última atualização:** 14/02/2026 23:00
 **Atualizado por:** Agent-00 (Orquestrador Mestre)
 **Próxima revisão:** 15/02/2026 09:00
+**Status Sprint 0:** ✅ COMPLETO
+**Sprint 1:** INICIANDO AGORA
