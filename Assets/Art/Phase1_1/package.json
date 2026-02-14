@@ -1,0 +1,18 @@
+{
+  "name": "cristo.phase1_1",
+  "version": "1.0.0",
+  "displayName": "Cristo - Phase 1.1 Assets",
+  "description": "Basic 3D environment assets for Bethlehem Basilica",
+  "author": "Agent-11 (3D Artist)",
+  "type": "template",
+  "dependencies": [],
+  "keywords": [
+    "3d",
+    "environment",
+    "basilica",
+    "bethlehem",
+    "unity",
+    "prefab",
+    "material"
+  ]
+}
