@@ -296,8 +296,8 @@
 
 ---
 
-**Última atualização:** 14/02/2026 23:00
+**Última atualização:** 14/02/2026 23:45
 **Atualizado por:** Agent-00 (Orquestrador Mestre)
-**Próxima revisão:** 15/02/2026 09:00
 **Status Sprint 0:** ✅ COMPLETO
-**Sprint 1:** INICIANDO AGORA
+**Status Sprint 1:** 🔄 EM PROGRESSO (40%)
+**Próximo marco:** Scene da Fase 1.1 jogável
